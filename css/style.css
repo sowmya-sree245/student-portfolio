@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+*{
+    font-family: 'Belanosima', sans-serif;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("../image/bannerimage\ \(1\).jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(244, 241, 241);
+} 
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}e
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color:#0e85bc;
+    border: 2px solid #e9079a;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid skyblue;
+}
+ 
+.card-img-top{
+    height: 50vh;
+}
